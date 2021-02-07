@@ -1,0 +1,32 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header{ } 
+main{flex-grow: 1;} 
+footer{ }
+/* 
+ *{
+    border: 1px solid red;
+} */
+
+.icons {
+    display: inline-block;
+}
+
+.bg-img {
+    background-image: url("https://wallpapercave.com/wp/wp4719062.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.text-faint {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+    resize: none;
+    border-color: lightgray;
+}
+
+.message-input-box {
+    width: 100%;
+    height: 50%;
+}
