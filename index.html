@@ -27,6 +27,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-sm-center" id="navbarNavAltMarkup">
+          <!--Nav bar items, add more links/dropdown menu/etc-->
           <div class="navbar-nav">
             <a class="nav-item nav-link active border border-dark m-2" href="#">Home</a>
             <a class="nav-item nav-link active border border-dark m-2" href="#bumble-video">Bumble Bees</a>
@@ -37,6 +38,7 @@
       </nav>
     </div>
   </header>
+  <!--end header/begin main, make default background color dark-->
   <main class="bg-dark">
     <div class="container-fluid bg-img">
       <div class="row">
@@ -44,11 +46,13 @@
           <p class="text-fancy">Subtle Bee Heading</p>
         </div>
       </div>
+      <!--Form to give info (doesnt store anything currently), changes based on screen size-->
       <div class="row pb-5" id="give-your-info">
         <div class="col-md-5 col-lg-5 col-xl-3 offset-0 offset-md-1 py-2">
           <div class="card w-100">
             <div class="card-body">
               <h5 class="card-title">Bees</h5>
+              <!--Form that would save info if it were being saved, keeps input organized-->
               <form>
                 <div class="form-group">
                   <input type="text" class="form-control text-uppercase" id="exampleInputPassword1" placeholder="Name">
@@ -74,13 +78,14 @@
                     information to be sold to bees.</label>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-text message-input-box pl-3" rows="5" placeholder="Message"></textarea>
+                  <textarea class="form-text pl-3" placeholder="Message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
           </div>
         </div>
+        <!--Disappears when viewed on a tablet or smaller-->
         <div class="col-12 col-md-4 d-none d-md-block offset-md-1">
           <div class="border-left text-bg-mobile pl-5">
             <h2 class="text-fancy">There are over 20,000 species of bees</h2>
@@ -89,8 +94,10 @@
         </div>
       </div>
     </div>
+    <!--Has a column that extends outside of row.-->
     <div class="container-fluid pt-5">
       <div class="row pt-2 bg-dark justify-content-center">
+        <!--Goes to 2nd place when viewed on mobile-->
         <div class="col-12 col-md-5 order-2 order-md-1 text-center text-light pt-3">
           <h2>
             Bees make honey
@@ -98,6 +105,7 @@
           <p>Farmers rent honey bee hives as much as 15,000 to help with pollination</p>
           <p>If the queen dies, the workers can feed a larva royal jelly in order to convert it to a queen.</p>
         </div>
+        <!-- goes to first place when viewed on mobile-->
         <div class="col-12 col-md-5 order-1 order-md-2 pt-3">
           <div class="card position-mobile">
             <ul class="list-group list-group-flush">
@@ -116,6 +124,8 @@
           </div>
         </div>
       </div>
+      <!--#bumble-video directs here, adds video and lorem ipsum to fill row content
+      2nd column changes font size/padding based on screen size to account for absolute column above.-->
       <div class="row bg-warning pt-sm-2 pt-md-5" id="bumble-video">
         <div class="col-12 col-md-4 my-2">
           <!--https://youtu.be/J7q9Kn1rhRc-->
@@ -150,6 +160,7 @@
           </div>
         </div>
       </div>
+      <!--#reviews directs here, shows 3 basic reviews using different icons as a star system-->
       <div class="row bg-dark py-5 d-flex justify-content-md-around" id="reviews">
         <div class="col-12 order-3 order-md-1 col-md-4 col-lg-3">
           <div class="card bg-light mb-3 py-3">
@@ -200,6 +211,7 @@
           </div>
         </div>
       </div>
+      <!--Basic row with a CSS animated button-->
       <div class="row d-flex bg-warning py-5" id="css-anim">
         <div class="col-12 col-md-8 offset-md-1">
           <h2>Bees in the end are great</h2>
@@ -209,14 +221,12 @@
         <div class="col align-self-center">
           <div class="hovered mx-auto">
             <p class="text-center"><i class="gg-arrow-left-o icons"></i>CSS Animation here!</p>
-
           </div>
-
         </div>
       </div>
-
     </div>
   </main>
+  <!--end main/begin footer, generic footer that stays at bottom.-->
   <footer>
     <div class="container-fluid">
       <div class="row bg-dark text-light pt-4 d-flex justify-content-center text-center">

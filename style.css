@@ -11,6 +11,7 @@ footer{ }
     display: inline-block;
 }
 
+/*Custom font*/
 .text-fancy {
     font-family: 'Odibee Sans', cursive;
 }
@@ -34,10 +35,7 @@ textarea {
     border-color: lightgray;
 }
 
-.message-input-box {
-    width: 100%;
-    height: 50%;
-}
+/*Hover transitions between width, color, and font-size*/
 .hovered {
     width: 50%;
     height: 200%;
